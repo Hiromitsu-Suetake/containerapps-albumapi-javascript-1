@@ -12,7 +12,7 @@
       "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
-      "cwd": "${workspaceFolder}/src",
+      "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "serverReadyAction": {
         "action": "openExternally"
