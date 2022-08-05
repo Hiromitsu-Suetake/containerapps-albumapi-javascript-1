@@ -1,10 +1,8 @@
-var express = require("express");
-var path = require("path");
-var logger = require("morgan");
+const express = require("express");
+const logger = require("morgan");
 
-var router = require("./routes/index");
-const appPort = process.env.PORT || 3000;
-var app = express();
+const router = require("./routes/index");
+const app = express();
 
 //enable cors
 app.use(function (req, res, next) {
